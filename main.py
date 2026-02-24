@@ -74,8 +74,7 @@ def analyze_batch(apps: List[Dict]) -> List[Dict]:
         batch = apps[i:i+batch_size]
         prompt_content = "作为阿里云大模型专家，分析以下 App 列表。判断标准：高频对话、长期角色记忆、情感陪伴。\n\n"
         for idx, app in enumerate(batch):
-            
-        
+             prompt_content += f"[{idx}] 名称:{app['name']}, 开发商:{app['seller']}, 描述:{app['desc']}\n"
         prompt_content += """
         直接返回一个 JSON 数组，不要包含任何解释文字。包含：
         - index: 索引
