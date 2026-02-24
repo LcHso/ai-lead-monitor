@@ -74,16 +74,18 @@ def analyze_batch(apps: List[Dict]) -> List[Dict]:
         batch = apps[i:i+batch_size]
         prompt_content = "作为阿里云大模型专家，分析以下 App 列表。判断标准：高频对话、长期角色记忆、情感陪伴。\n\n"
         for idx, app in enumerate(batch):
-            prompt_content += f"[{idx}] 名称:{app['name']}, 开发商:{app['seller']}, 描述:{app['desc']}\n"
+            
         
         prompt_content += """
-        返回 JSON 数组格式，包含：
+        直接返回一个 JSON 数组，不要包含任何解释文字。包含：
         - index: 索引
         - is_companion: 是否为高频 AI 陪伴/社交类 (true/false)
         - token_level: Token 消耗等级 (High/Medium/Low)
         - pain_point: 客户最核心的成本痛点 (如：上下文太长、记忆丢失、并发波动)
         - score: 商业价值评分 (1-10)
         - pitch: 针对阿里云产品的具体销售切入点 (如：推荐 Context Cache、新客补贴、百炼集成)
+        格式如下：
+        [{"index": 0, "is_companion": true, "token_level": "High", "pain_point": "成本", "score": 9, "pitch": "话术"}]
         """
 
         try:
@@ -91,7 +93,7 @@ def analyze_batch(apps: List[Dict]) -> List[Dict]:
             response = Generation.call(
                 model="qwen-turbo", 
                 api_key=config.dashscope_api_key,
-                messages=[{'role': 'system', 'content': '你是一个精通云计算销售和AI架构的专家。'},
+                messages=[{'role': 'system', 'content': '你是一个精通云计算销售和AI架构的专家并且只输出纯JSON格式数据。'},
                           {'role': 'user', 'content': prompt_content}], 
                 result_format='message'
             )
