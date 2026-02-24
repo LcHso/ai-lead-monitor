@@ -84,8 +84,6 @@ def analyze_batch(apps: List[Dict]) -> List[Dict]:
         - pain_point: 客户最核心的成本痛点 (如：上下文太长、记忆丢失、并发波动)
         - score: 商业价值评分 (1-10)
         - pitch: 针对阿里云产品的具体销售切入点 (如：推荐 Context Cache、新客补贴、百炼集成)
-        格式如下：
-        [{"index": 0, "is_companion": true, "token_level": "High", "pain_point": "成本", "score": 9, "pitch": "话术"}]
         """
 
         try:
