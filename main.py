@@ -3,6 +3,7 @@ import json
 import time
 import logging
 import requests
+import re
 from datetime import datetime
 from typing import List, Dict, Any
 from dashscope import Generation
@@ -108,6 +109,61 @@ def analyze_batch(apps: List[Dict]) -> List[Dict]:
     # 按评分降序排列
     qualified_apps.sort(key=lambda x: x['analysis'].get('score', 0), reverse=True)
     return qualified_apps
+
+def research_contact_path(app_name: str, seller_name: str) -> str:
+    """
+    利用 AI 推演该公司的联系线索寻找方案
+    返回：Markdown 格式的搜索链接 + 破冰话术
+    """
+    prompt = f"""
+    App 名称: {app_name}
+    开发商: {seller_name}
+    
+    你是一名资深 B2B 销售顾问，请为这个 App 生成"找人路径"：
+    
+    1. 【备案查询】生成天眼查/企查查搜索链接（URL encode 公司名）
+    2. 【社交搜索】生成即刻/小红书搜索链接（搜产品名看用户反馈）
+    3. 【技术溯源】生成 GitHub 搜索链接（搜 App 名找开源项目或开发者）
+    4. 【职业网络】生成领英搜索链接（搜"公司名 + CTO/创始人"）
+    5. 【破冰话术】写一句针对 AI 陪伴赛道的技术型破冰话术（突出 Token 成本/上下文长度/并发优化）
+    
+    返回格式（严格 Markdown，不要其他文字）：
+    - [🔍 查备案/电话](https://www.tianyancha.com/search?key=公司名 URL 编码)
+    - [💬 即刻搜产品](https://web.okjike.com/search?keyword=产品名)
+    - [💻 GitHub 搜代码](https://github.com/search?q=产品名&type=repositories)
+    - [👔 领英搜 CTO](https://www.linkedin.com/search/results/people/?keywords=公司名%20CTO)
+    - 💡 **破冰金句**：`你的话术`
+    """
+    try:
+        from urllib.parse import quote
+        # URL 编码公司名和产品名
+        encoded_seller = quote(seller_name)
+        encoded_app = quote(app_name)
+        
+        # 替换 prompt 中的占位符（AI 可能不会完美编码，我们兜底）
+        prompt = prompt.replace("公司名 URL 编码", encoded_seller)
+        prompt = prompt.replace("产品名", app_name)
+        prompt = prompt.replace("公司名", seller_name)
+        
+        response = Generation.call(
+            model="qwen-turbo", 
+            api_key=config.dashscope_api_key,
+            messages=[{'role': 'user', 'content': prompt}],
+            result_format='message'
+        )
+        return response.output.choices[0].message.content.strip()
+    except Exception as e:
+        logger.warning(f"Contact research failed for {app_name}: {e}")
+        # 兜底：返回基础搜索链接
+        from urllib.parse import quote
+        encoded = quote(seller_name)
+        return (
+            f"- [🔍 查备案/电话](https://www.tianyancha.com/search?key={encoded})\n"
+            f"- [💬 即刻搜产品](https://web.okjike.com/search?keyword={quote(app_name)})\n"
+            f"- [💻 GitHub 搜代码](https://github.com/search?q={quote(app_name)}&type=repositories)\n"
+            f"- [👔 领英搜 CTO](https://www.linkedin.com/search/results/people/?keywords={encoded}%20CTO)\n"
+            f"- 💡 **破冰金句**：`您好，关注到贵司 {app_name} 在 AI 陪伴赛道的创新，我们有针对长上下文场景的优化方案，方便交流吗？`"
+        )
 
 def filter_new_leads(apps: List[Dict], state: Dict) -> List[Dict]:
     notified_ids = set(state.get("notified_ids", []))
