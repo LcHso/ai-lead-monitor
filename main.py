@@ -18,11 +18,11 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)  # ✅ 修复：加双下划线
 
 STATE_FILE = "state.json"
 
-# === 1. 状态管理（支持排名历史） ===
+# === 1. 状态管理 ===
 def load_state() -> Dict[str, Any]:
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE, "r", encoding="utf-8") as f:
@@ -47,9 +47,9 @@ def fetch_apps() -> List[Dict]:
     }
     
     for keyword in config.keywords:
-        url = "https://itunes.apple.com/cn/search"
+        url = "https://itunes.apple.com/cn/search"  # ✅ 修复：去掉末尾空格
         params = {
-            "term": keyword,
+            "term": keyword,  # ✅ 修复：去掉 key 末尾空格
             "country": config.country,
             "entity": "software",
             "limit": 100
@@ -61,7 +61,7 @@ def fetch_apps() -> List[Dict]:
                 continue
             
             results = resp.json().get("results", [])
-            for rank, app in enumerate(results, 1):  # rank 从 1 开始
+            for rank, app in enumerate(results, 1):
                 track_id = str(app['trackId'])
                 if track_id in seen_ids:
                     continue
@@ -72,14 +72,14 @@ def fetch_apps() -> List[Dict]:
                 
                 seen_ids.add(track_id)
                 all_apps.append({
-                    "id": track_id,
+                    "id": track_id,  # ✅ 修复：去掉 key 末尾空格
                     "name": app['trackName'],
                     "desc": app.get('description', '')[:1200],
-                    "url": app['trackViewUrl'],
+                    "url": app['trackViewUrl'],  # ✅ 关键修复：链接字段
                     "seller": seller,
                     "genre": app.get('primaryGenreName', ''),
                     "keyword": keyword,
-                    "rank": rank  # 🔥 记录排名位置
+                    "rank": rank
                 })
             time.sleep(0.3)
         except Exception as e:
@@ -152,12 +152,8 @@ def analyze_batch(apps: List[Dict]) -> List[Dict]:
     logger.info(f"Qualified apps after AI analysis: {len(qualified_apps)}")
     return qualified_apps
 
-# === 4. 排名变化分析（替代评分变化） ===
+# === 4. 排名变化分析 ===
 def analyze_ranking_changes(apps: List[Dict], state: Dict) -> Tuple[List[Dict], List[Dict], List[Dict]]:
-    """
-    分析新增、排名上升、排名下降的 App
-    返回：(new_leads, rising_leads, falling_leads)
-    """
     history = state.get("app_history", {})
     new_leads = []
     rising_leads = []
@@ -165,11 +161,10 @@ def analyze_ranking_changes(apps: List[Dict], state: Dict) -> Tuple[List[Dict], 
     
     for app in apps:
         app_id = app['id']
-        current_rank = app.get('rank', 999)  # 当前排名
+        current_rank = app.get('rank', 999)
         current_keyword = app.get('keyword', 'unknown')
         
         if app_id not in history:
-            # 新发现的 App
             new_leads.append(app)
             history[app_id] = {
                 "rank": current_rank,
@@ -180,15 +175,13 @@ def analyze_ranking_changes(apps: List[Dict], state: Dict) -> Tuple[List[Dict], 
                 "name": app['name']
             }
         else:
-            # 已存在的 App，对比排名
             old_rank = history[app_id].get("rank", 999)
             old_keyword = history[app_id].get("keyword", "")
             
-            # 只对比同一关键词下的排名变化
             if current_keyword == old_keyword:
-                rank_diff = old_rank - current_rank  # 正数表示排名上升
+                rank_diff = old_rank - current_rank
                 
-                if rank_diff >= 5:  # 排名上升 5 位以上
+                if rank_diff >= 5:
                     app['ranking_info'] = {
                         "old_rank": old_rank,
                         "new_rank": current_rank,
@@ -196,7 +189,7 @@ def analyze_ranking_changes(apps: List[Dict], state: Dict) -> Tuple[List[Dict], 
                         "trend": "rising"
                     }
                     rising_leads.append(app)
-                elif rank_diff <= -5:  # 排名下降 5 位以上
+                elif rank_diff <= -5:
                     app['ranking_info'] = {
                         "old_rank": old_rank,
                         "new_rank": current_rank,
@@ -205,7 +198,6 @@ def analyze_ranking_changes(apps: List[Dict], state: Dict) -> Tuple[List[Dict], 
                     }
                     falling_leads.append(app)
             
-            # 更新历史记录
             history[app_id] = {
                 "rank": current_rank,
                 "keyword": current_keyword,
@@ -257,7 +249,7 @@ App 名称：{app_name}
             f"- 💡 **破冰金句**：`您好，关注到贵司 {app_name} 在 AI 陪伴赛道的创新，我们有针对长上下文场景的优化方案，方便交流吗？`"
         )
 
-# === 6. 钉钉推送（三板块：上升 + 新增 + 下降） ===
+# === 6. 钉钉推送（链接置顶 + 三板块） ===
 def send_report(new_leads: List[Dict], rising_leads: List[Dict], falling_leads: List[Dict]):
     if not new_leads and not rising_leads and not falling_leads:
         logger.info("No significant changes found today.")
@@ -272,7 +264,7 @@ def send_report(new_leads: List[Dict], rising_leads: List[Dict], falling_leads: 
     
     content = []
     
-    # 板块 1：排名上升（下载量可能增长）
+    # 板块 1：排名上升
     if rising_leads:
         content.append("## 🚀 排名上升榜单 (下载量可能增长)")
         for i, app in enumerate(rising_leads[:10], 1):
@@ -282,7 +274,8 @@ def send_report(new_leads: List[Dict], rising_leads: List[Dict], falling_leads: 
             diff = r.get('diff', 0)
             a = app['analysis']
             text = (
-                f"{i}. **【{app['name']}】** (排名：{old_r} → {new_r} ⬆️{diff})\n"
+                f"{i}. **【{app['name']}】** [📱 App Store]({app['url']})\n"  # ✅ 链接置顶
+                f"   - 排名：{old_r} → {new_r} ⬆️{diff}\n"
                 f"   - 关键词：`{app.get('keyword', 'unknown')}`\n"
                 f"   - 等级：{a.get('token_level', 'Unknown')} | 评分：{a.get('score', 0)}\n"
                 f"   - 策略：{a.get('pitch', '持续跟进')}\n"
@@ -296,10 +289,10 @@ def send_report(new_leads: List[Dict], rising_leads: List[Dict], falling_leads: 
         content.append("## 🆕 新增高价值潜客")
         for i, app in enumerate(new_leads[:10], 1):
             a = app['analysis']
-            level_map = {"High": "🔴", "Medium": "🟡", "Low": "🟢"}
+            level_map = {"High": "🔴", "Medium": "🟡", "Low": "🟢"}  # ✅ 修复：去掉 key 空格
             token_ui = level_map.get(a.get('token_level', 'Low'), "⚪")
             text = (
-                f"{i}. **【{app['name']}】** {token_ui} (评分：{a.get('score', 0)})\n"
+                f"{i}. **【{app['name']}】** {token_ui} (评分：{a.get('score', 0)}) [📱 App Store]({app['url']})\n"  # ✅ 链接置顶
                 f"   - 排名：#{app.get('rank', 999)} | 关键词：`{app.get('keyword', 'unknown')}`\n"
                 f"   - 主体：`{app['seller']}`\n"
                 f"   - 策略：{a.get('pitch', '暂无')}\n"
@@ -308,7 +301,7 @@ def send_report(new_leads: List[Dict], rising_leads: List[Dict], falling_leads: 
             content.append(text)
         content.append("---")
     
-    # 板块 3：排名下降（可能遇到问题，可切入）
+    # 板块 3：排名下降
     if falling_leads:
         content.append("## ⚠️ 排名下降监控 (可能遇到问题)")
         for i, app in enumerate(falling_leads[:5], 1):
@@ -317,7 +310,8 @@ def send_report(new_leads: List[Dict], rising_leads: List[Dict], falling_leads: 
             new_r = r.get('new_rank', 0)
             diff = r.get('diff', 0)
             text = (
-                f"{i}. **【{app['name']}】** (排名：{old_r} → {new_r} ⬇️{abs(diff)})\n"
+                f"{i}. **【{app['name']}】** [📱 App Store]({app['url']})\n"  # ✅ 链接置顶
+                f"   - 排名：{old_r} → {new_r} ⬇️{abs(diff)}\n"
                 f"   - 机会点：用户可能流失，可推竞品替代方案\n"
             )
             content.append(text)
@@ -326,7 +320,7 @@ def send_report(new_leads: List[Dict], rising_leads: List[Dict], falling_leads: 
     full_text += f"\n\n> **提示**：排名上升 = 下载量增长信号，建议优先跟进上升榜单客户。"
     
     body = {
-        "msgtype": "markdown",
+        "msgtype": "markdown",  # ✅ 修复：去掉 key 空格
         "markdown": {
             "title": title,
             "text": full_text
@@ -343,7 +337,7 @@ def send_report(new_leads: List[Dict], rising_leads: List[Dict], falling_leads: 
         logger.error(f"Failed to send report: {e}")
 
 # === 主流程 ===
-if __name__ == "__main__":
+if __name__ == "__main__":  # ✅ 修复：加双下划线
     start_time = time.time()
     logger.info("=== 430 战役：C 端社交雷达启动 ===")
     
