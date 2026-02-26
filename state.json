@@ -11,7 +11,7 @@
     "6466733523": {
       "rank": 4,
       "keyword": "AI 对话",
-      "score": 9,
+      "score": 10,
       "level": "High",
       "date": "2026-02-26",
       "name": "千问 - 阿里AI助手"
@@ -28,7 +28,7 @@
       "rank": 5,
       "keyword": "AI 陪伴",
       "score": 9,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "筑梦岛"
     },
@@ -51,7 +51,7 @@
     "6745666610": {
       "rank": 14,
       "keyword": "AI 陪伴",
-      "score": 10,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "CRUSH AI：恋爱角色扮演聊天陪伴模拟"
@@ -100,7 +100,7 @@
       "rank": 38,
       "keyword": "AI 陪伴",
       "score": 9,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "二次元伴侣-AI陪伴，AI对话，智能恋人，虚拟聊天"
     },
@@ -187,7 +187,7 @@
     "6754005768": {
       "rank": 78,
       "keyword": "AI 陪伴",
-      "score": 10,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "米苏时空-AI情感陪伴"
@@ -219,7 +219,7 @@
     "6749524472": {
       "rank": 8,
       "keyword": "虚拟恋人",
-      "score": 8,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "织之-虚拟恋人视频对话角色扮演智能体ai聊天"
@@ -364,7 +364,7 @@
       "rank": 72,
       "keyword": "AI 聊天",
       "score": 7,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "Chat Plus-中文版智能Chat AI聊天写作机器人"
     },
@@ -403,7 +403,7 @@
     "1459076631": {
       "rank": 81,
       "keyword": "角色扮演",
-      "score": 9,
+      "score": 7,
       "level": "High",
       "date": "2026-02-26",
       "name": "隐形守护者"
@@ -491,7 +491,7 @@
     "437760529": {
       "rank": 21,
       "keyword": "AI 朋友",
-      "score": 9,
+      "score": 8,
       "level": "Low",
       "date": "2026-02-26",
       "name": "玛莎和熊 AI 儿童乐园"
@@ -507,7 +507,7 @@
     "1077989161": {
       "rank": 3,
       "keyword": "情感倾诉",
-      "score": 10,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "壹点灵-专业有温度的心理咨询服务平台"
@@ -612,7 +612,7 @@
       "rank": 49,
       "keyword": "情感倾诉",
       "score": 7,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "Call得助-情感与心理咨询"
     },
@@ -667,7 +667,7 @@
     "1577910188": {
       "rank": 85,
       "keyword": "情感倾诉",
-      "score": 8,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "武志红讲心理-专业的心理咨询平台"
@@ -699,7 +699,7 @@
     "6738621942": {
       "rank": 75,
       "keyword": "树洞",
-      "score": 9,
+      "score": 7,
       "level": "High",
       "date": "2026-02-26",
       "name": "凌晨 3 点 · 匿名树洞"
@@ -707,15 +707,15 @@
     "1490100904": {
       "rank": 76,
       "keyword": "树洞",
-      "score": 7,
-      "level": "Medium",
+      "score": 9,
+      "level": "High",
       "date": "2026-02-26",
       "name": "橙心处cp-青年恋爱聊天交友软件"
     },
     "6743956024": {
       "rank": 11,
       "keyword": "AI 角色",
-      "score": 9,
+      "score": 10,
       "level": "High",
       "date": "2026-02-26",
       "name": "Rubii: AI原生角色社区 - 和角色一起冒险"
@@ -740,7 +740,7 @@
       "rank": 55,
       "keyword": "AI 角色",
       "score": 8,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "NativeTavern - AI酒馆，角色扮演，安全隐私"
     },
@@ -780,7 +780,7 @@
       "rank": 27,
       "keyword": "虚拟人",
       "score": 9,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "智小途"
     },
@@ -803,8 +803,8 @@
     "6446980606": {
       "rank": 48,
       "keyword": "AI 对话",
-      "score": 8,
-      "level": "Low",
+      "score": 9,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "魔力口语Hibay-和AI对话学英语"
     },
@@ -812,7 +812,7 @@
       "rank": 56,
       "keyword": "AI 对话",
       "score": 9,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "讯飞星火-懂你的AI助手"
     },
@@ -828,14 +828,14 @@
       "rank": 65,
       "keyword": "AI 对话",
       "score": 9,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "ThinkAI - 人工智能对话聊天翻译机器人"
     },
     "1544750895": {
       "rank": 5,
       "keyword": "Character",
-      "score": 8,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "CHAI: Social AI Platform- Chat"
@@ -843,7 +843,7 @@
     "6738207910": {
       "rank": 13,
       "keyword": "Character",
-      "score": 8,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "Moescape - Character AI & Art"
@@ -851,7 +851,7 @@
     "6471991500": {
       "rank": 34,
       "keyword": "Character",
-      "score": 10,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "Dippy-AI Characters & Roleplay"
@@ -859,7 +859,7 @@
     "6748310916": {
       "rank": 38,
       "keyword": "Character",
-      "score": 9,
+      "score": 8,
       "level": "High",
       "date": "2026-02-26",
       "name": "Lovmia - AI Character Chat"
@@ -899,7 +899,7 @@
     "6503227895": {
       "rank": 13,
       "keyword": "AI 陪伴",
-      "score": 8,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "麦芽岛-AI角色陪伴互动"
@@ -963,7 +963,7 @@
     "6747655705": {
       "rank": 34,
       "keyword": "AI 陪伴",
-      "score": 8,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "心屿-爱你所AI"
@@ -995,7 +995,7 @@
     "6745757810": {
       "rank": 52,
       "keyword": "AI 陪伴",
-      "score": 9,
+      "score": 8,
       "level": "High",
       "date": "2026-02-26",
       "name": "Whimly・AI Girlfriend, Roleplay"
@@ -1011,7 +1011,7 @@
     "6738300386": {
       "rank": 62,
       "keyword": "AI 陪伴",
-      "score": 9,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "JoyAI-京东旗下万能数字人助手"
@@ -1019,7 +1019,7 @@
     "6751569435": {
       "rank": 63,
       "keyword": "AI 陪伴",
-      "score": 7,
+      "score": 6,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "lovemo"
@@ -1059,7 +1059,7 @@
     "6462848167": {
       "rank": 6,
       "keyword": "虚拟恋人",
-      "score": 9,
+      "score": 8,
       "level": "High",
       "date": "2026-02-26",
       "name": "Cos Love 虚拟情感聊天"
@@ -1099,7 +1099,7 @@
     "6752485556": {
       "rank": 40,
       "keyword": "虚拟恋人",
-      "score": 9,
+      "score": 7,
       "level": "High",
       "date": "2026-02-26",
       "name": "追爱鸭-恋爱聊天回复键盘-AI聊天攻略角色"
@@ -1139,8 +1139,8 @@
     "6450926364": {
       "rank": 63,
       "keyword": "虚拟恋人",
-      "score": 7,
-      "level": "Medium",
+      "score": 8,
+      "level": "High",
       "date": "2026-02-26",
       "name": "蓝伴语音 - 在线连麦聊天交友平台"
     },
@@ -1244,14 +1244,14 @@
       "rank": 52,
       "keyword": "AI 聊天",
       "score": 8,
-      "level": "Low",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "恋小爱-恋爱聊天回复神器&高情商输入法"
     },
     "6748048194": {
       "rank": 59,
       "keyword": "AI 聊天",
-      "score": 7,
+      "score": 8,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "ChatG5.0全球中文版 - 智能聊天，一键画图"
@@ -1275,7 +1275,7 @@
     "6443915491": {
       "rank": 68,
       "keyword": "AI 聊天",
-      "score": 8,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "爱帮主-高情商恋爱聊天话术回复神器,必备谈恋爱对话话术库"
@@ -1292,7 +1292,7 @@
       "rank": 18,
       "keyword": "角色扮演",
       "score": 8,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "熹妃传"
     },
@@ -1315,7 +1315,7 @@
     "1562260653": {
       "rank": 36,
       "keyword": "角色扮演",
-      "score": 9,
+      "score": 8,
       "level": "High",
       "date": "2026-02-26",
       "name": "无期迷途"
@@ -1323,7 +1323,7 @@
     "1597414986": {
       "rank": 45,
       "keyword": "角色扮演",
-      "score": 8,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "猫之城"
@@ -1332,14 +1332,14 @@
       "rank": 48,
       "keyword": "角色扮演",
       "score": 8,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "叫我万岁爷-唯美宫廷养成手游"
     },
     "1538090101": {
       "rank": 64,
       "keyword": "角色扮演",
-      "score": 7,
+      "score": 8,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "欢迎来到梦乐园"
@@ -1387,7 +1387,7 @@
     "6479512540": {
       "rank": 45,
       "keyword": "智能女友",
-      "score": 8,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "女友翻译助手"
@@ -1475,7 +1475,7 @@
     "6505050010": {
       "rank": 39,
       "keyword": "AI 朋友",
-      "score": 8,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "小来早晚安-AI早起助手"
@@ -1484,7 +1484,7 @@
       "rank": 52,
       "keyword": "AI 朋友",
       "score": 8,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "Badoo - 认识新朋友"
     },
@@ -1531,7 +1531,7 @@
     "6740616759": {
       "rank": 18,
       "keyword": "情感倾诉",
-      "score": 9,
+      "score": 8,
       "level": "High",
       "date": "2026-02-26",
       "name": "寻密-情感倾诉私密治愈多元交友吧"
@@ -1539,7 +1539,7 @@
     "1527219143": {
       "rank": 20,
       "keyword": "情感倾诉",
-      "score": 7,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "星盘说-专业情感心理问答"
@@ -1643,7 +1643,7 @@
     "6746160952": {
       "rank": 68,
       "keyword": "情感倾诉",
-      "score": 7,
+      "score": 8,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "Eona - AI 情感支持 感情 事业 对话 测测"
@@ -1740,14 +1740,14 @@
       "rank": 27,
       "keyword": "树洞",
       "score": 8,
-      "level": "Medium",
+      "level": "Low",
       "date": "2026-02-26",
       "name": "树洞陪聊 - 匿名聊天&解压与排解孤独"
     },
     "6479685041": {
       "rank": 60,
       "keyword": "树洞",
-      "score": 6,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "星遇漂流瓶 - 专为女生设计的聊天软件"
@@ -1755,7 +1755,7 @@
     "6504397702": {
       "rank": 67,
       "keyword": "树洞",
-      "score": 9,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "偶遇CP - 树洞漂流瓶纸条交友"
@@ -1803,23 +1803,23 @@
     "1194023242": {
       "rank": 56,
       "keyword": "树洞",
-      "score": 8,
-      "level": "High",
-      "date": "2026-02-25",
+      "score": 7,
+      "level": "Low",
+      "date": "2026-02-26",
       "name": "Daylio 心情日记本 | 情绪树洞 | 习惯打卡备忘录"
     },
     "1500731575": {
       "rank": 58,
       "keyword": "树洞",
       "score": 8,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "时光漂流瓶-陌生人灵魂交友聊天找搭子"
     },
     "1445350671": {
       "rank": 69,
       "keyword": "树洞",
-      "score": 8,
+      "score": 6,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "初遇-陌生人树洞"
@@ -1859,8 +1859,8 @@
     "6743023404": {
       "rank": 38,
       "keyword": "AI 角色",
-      "score": 9,
-      "level": "Medium",
+      "score": 6,
+      "level": "Low",
       "date": "2026-02-26",
       "name": "Monspeak - AI 口语对话游戏，抽卡解锁新角色"
     },
@@ -1875,8 +1875,8 @@
     "6749563951": {
       "rank": 51,
       "keyword": "AI 角色",
-      "score": 6,
-      "level": "Low",
+      "score": 7,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "酒馆AI-一款专门为AI 角色扮演爱好者定制的学习工具"
     },
@@ -1892,7 +1892,7 @@
       "rank": 57,
       "keyword": "AI 角色",
       "score": 7,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "Character AI chatbot assistant"
     },
@@ -1932,7 +1932,7 @@
       "rank": 57,
       "keyword": "AI 男友",
       "score": 7,
-      "level": "Medium",
+      "level": "Low",
       "date": "2026-02-26",
       "name": "他ta星球 - 语音连接的温暖宇宙"
     },
@@ -1995,7 +1995,7 @@
     "6742088068": {
       "rank": 22,
       "keyword": "虚拟人",
-      "score": 8,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "数字人AI创作-1:1形象声音克隆，无人直播助手"
@@ -2003,7 +2003,7 @@
     "6526480318": {
       "rank": 36,
       "keyword": "虚拟人",
-      "score": 9,
+      "score": 8,
       "level": "High",
       "date": "2026-02-26",
       "name": "瞬创AI-AI创作视频照片舞蹈一键生成"
@@ -2019,16 +2019,16 @@
     "1563705430": {
       "rank": 58,
       "keyword": "虚拟人",
-      "score": 7,
-      "level": "Low",
+      "score": 8,
+      "level": "High",
       "date": "2026-02-26",
       "name": "位寻手机定位-查找朋友定位找人软件"
     },
     "6449095944": {
       "rank": 18,
       "keyword": "AI 对话",
-      "score": 7,
-      "level": "Medium",
+      "score": 8,
+      "level": "High",
       "date": "2026-02-26",
       "name": "可栗口语 - AI外教情景对话，零基础练发音学语法"
     },
@@ -2051,15 +2051,15 @@
     "6572296249": {
       "rank": 54,
       "keyword": "AI 对话",
-      "score": 7,
-      "level": "Medium",
+      "score": 8,
+      "level": "High",
       "date": "2026-02-26",
       "name": "ChatGP5.0-官方正版AI人工智能聊天机器人"
     },
     "6743391661": {
       "rank": 63,
       "keyword": "AI 对话",
-      "score": 8,
+      "score": 7,
       "level": "High",
       "date": "2026-02-26",
       "name": "Manus - AI Agent智能体"
@@ -2067,16 +2067,16 @@
     "1670606495": {
       "rank": 68,
       "keyword": "AI 对话",
-      "score": 6,
-      "level": "Medium",
+      "score": 8,
+      "level": "High",
       "date": "2026-02-26",
       "name": "AI智能聊天 - Chat国外中文版聊天写作机器人"
     },
     "6473532346": {
       "rank": 72,
       "keyword": "AI 对话",
-      "score": 6,
-      "level": "Low",
+      "score": 9,
+      "level": "High",
       "date": "2026-02-26",
       "name": "全能AI-AI聊天AI绘画文本创作知识对话问答写作机器人助手"
     },
@@ -2084,7 +2084,7 @@
       "rank": 76,
       "keyword": "AI 对话",
       "score": 8,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "hello annie-AI对话、口语发音练习"
     },
@@ -2115,7 +2115,7 @@
     "919745844": {
       "rank": 4,
       "keyword": "Roleplay",
-      "score": 9,
+      "score": 8,
       "level": "High",
       "date": "2026-02-26",
       "name": "IMVU - 3D化身社交应用"
@@ -2132,7 +2132,7 @@
       "rank": 32,
       "keyword": "Roleplay",
       "score": 8,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "御剑情缘"
     },
@@ -2140,14 +2140,14 @@
       "rank": 48,
       "keyword": "Roleplay",
       "score": 8,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "天空纪元"
     },
     "1078814844": {
       "rank": 63,
       "keyword": "Roleplay",
-      "score": 9,
+      "score": 8,
       "level": "High",
       "date": "2026-02-26",
       "name": "餐厅萌物语-超萌二次元模拟经营游戏"
@@ -2156,7 +2156,7 @@
       "rank": 70,
       "keyword": "Roleplay",
       "score": 8,
-      "level": "High",
+      "level": "Low",
       "date": "2026-02-26",
       "name": "倩女幽魂"
     },
@@ -2164,15 +2164,15 @@
       "rank": 4,
       "keyword": "AI 陪伴",
       "score": 8,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "猫箱 - 和心动 AI 探索剧情宇宙"
     },
     "6453689112": {
       "rank": 6,
       "keyword": "AI 陪伴",
-      "score": 7,
-      "level": "Medium",
+      "score": 9,
+      "level": "High",
       "date": "2026-02-26",
       "name": "林间聊愈室-AI伙伴懂你情绪，陪你变好"
     },
@@ -2203,7 +2203,7 @@
     "6480025814": {
       "rank": 36,
       "keyword": "AI 陪伴",
-      "score": 7,
+      "score": 8,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "Character AI - 正版AI女友虚拟恋爱聊天机器人"
@@ -2212,7 +2212,7 @@
       "rank": 39,
       "keyword": "AI 陪伴",
       "score": 7,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "AI恋人-虚拟聊天平台"
     },
@@ -2235,7 +2235,7 @@
     "6479238342": {
       "rank": 54,
       "keyword": "AI 陪伴",
-      "score": 8,
+      "score": 7,
       "level": "High",
       "date": "2026-02-26",
       "name": "虚拟男友:独一无二的秘密AI聊天男友 24小时时文字语音陪伴"
@@ -2275,8 +2275,8 @@
     "6746845345": {
       "rank": 75,
       "keyword": "AI 陪伴",
-      "score": 9,
-      "level": "High",
+      "score": 7,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "快乐小狗 - AI 虚拟电子宠物"
     },
@@ -2331,7 +2331,7 @@
     "6752819193": {
       "rank": 39,
       "keyword": "虚拟恋人",
-      "score": 7,
+      "score": 9,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "心坊 - 树洞社交"
@@ -2340,7 +2340,7 @@
       "rank": 35,
       "keyword": "虚拟恋人",
       "score": 6,
-      "level": "Medium",
+      "level": "Low",
       "date": "2026-02-26",
       "name": "虚拟男友养成记-乙女养成互动漫画"
     },
@@ -2371,8 +2371,8 @@
     "6557054501": {
       "rank": 62,
       "keyword": "虚拟恋人",
-      "score": 8,
-      "level": "High",
+      "score": 7,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "情物语 - 情侣聊天恋爱记录，情侣小家&装扮，纪念日"
     },
@@ -2419,7 +2419,7 @@
     "1620734108": {
       "rank": 90,
       "keyword": "虚拟恋人",
-      "score": 7,
+      "score": 6,
       "level": "High",
       "date": "2026-02-26",
       "name": "暖暖部落-语音游戏聊天交友"
@@ -2435,7 +2435,7 @@
     "6746744866": {
       "rank": 27,
       "keyword": "AI 聊天",
-      "score": 6,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "ChatG5.0中文版-超强模型，国际通用版"
@@ -2475,7 +2475,7 @@
     "6737188542": {
       "rank": 60,
       "keyword": "AI 聊天",
-      "score": 6,
+      "score": 7,
       "level": "Low",
       "date": "2026-02-26",
       "name": "恋爱键盘-聊天话术高情商回复追爱输入法"
@@ -2491,15 +2491,15 @@
     "350426804": {
       "rank": 47,
       "keyword": "AI 聊天",
-      "score": 9,
-      "level": "High",
+      "score": 7,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "Jack'd - 男同志聊天与约会"
     },
     "6502375865": {
       "rank": 71,
       "keyword": "AI 聊天",
-      "score": 6,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "Talk -AI练口语、口语训练&聊天机器人"
@@ -2643,7 +2643,7 @@
     "1265035248": {
       "rank": 20,
       "keyword": "AI 朋友",
-      "score": 8,
+      "score": 7,
       "level": "High",
       "date": "2026-02-26",
       "name": "Mingle2 Dating App, 聊天,约会,新朋友"
@@ -2659,7 +2659,7 @@
     "6751411926": {
       "rank": 32,
       "keyword": "AI 朋友",
-      "score": 8,
+      "score": 7,
       "level": "High",
       "date": "2026-02-26",
       "name": "有话 - 你的私人日记本和 AI 朋友圈"
@@ -2700,7 +2700,7 @@
       "rank": 10,
       "keyword": "情感倾诉",
       "score": 8,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "情说心理咨询"
     },
@@ -2723,7 +2723,7 @@
     "1593588610": {
       "rank": 19,
       "keyword": "情感倾诉",
-      "score": 8,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "小陪伴-同城闲聊交友漂流瓶聊天树洞倾诉社交软件"
@@ -2788,7 +2788,7 @@
       "rank": 47,
       "keyword": "情感倾诉",
       "score": 9,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "小我情感"
     },
@@ -2819,8 +2819,8 @@
     "6745744522": {
       "rank": 81,
       "keyword": "情感倾诉",
-      "score": 9,
-      "level": "Low",
+      "score": 8,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "轻聊 - 聊天 倾诉 心情 朋友 AI Chat"
     },
@@ -2835,7 +2835,7 @@
     "6476404447": {
       "rank": 2,
       "keyword": "树洞",
-      "score": 6,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "纸条星球-匿名交友聊天"
@@ -2876,7 +2876,7 @@
       "rank": 49,
       "keyword": "树洞",
       "score": 7,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "相遇漂流瓶-附近漂流瓶树洞瓶洞文聊倾诉多元陌生人聊天交友软件"
     },
@@ -2923,15 +2923,15 @@
     "1673749856": {
       "rank": 39,
       "keyword": "树洞",
-      "score": 8,
-      "level": "High",
+      "score": 7,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "漂流瓶树洞-最懂你的人在这里"
     },
     "1463260661": {
       "rank": 42,
       "keyword": "树洞",
-      "score": 9,
+      "score": 6,
       "level": "High",
       "date": "2026-02-26",
       "name": "文撩-随时随地有人撩你"
@@ -2955,8 +2955,8 @@
     "1668022402": {
       "rank": 37,
       "keyword": "树洞",
-      "score": 8,
-      "level": "High",
+      "score": 7,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "驭世界-漂流瓶成年人聊天树洞交友APP"
     },
@@ -2964,7 +2964,7 @@
       "rank": 45,
       "keyword": "树洞",
       "score": 6,
-      "level": "Low",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "树洞吧"
     },
@@ -2988,7 +2988,7 @@
       "rank": 50,
       "keyword": "树洞",
       "score": 8,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "羞猫-超级漂流瓶树洞"
     },
@@ -3012,7 +3012,7 @@
       "rank": 81,
       "keyword": "树洞",
       "score": 7,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "同城缘聊-附近成人私密聊天交友树洞同城语音视频探陌约恋爱软件"
     },
@@ -3020,7 +3020,7 @@
       "rank": 83,
       "keyword": "树洞",
       "score": 8,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "即甜交友-附近成人聊天交友树洞同城语音视频探陌约恋爱直播软件"
     },
@@ -3049,7 +3049,7 @@
       "name": "爱星聊-同志AI兴趣交友聊天"
     },
     "6449228704": {
-      "rank": 45,
+      "rank": 44,
       "keyword": "AI 女友",
       "score": 7,
       "level": "Medium",
@@ -3067,7 +3067,7 @@
     "6451239117": {
       "rank": 25,
       "keyword": "虚拟人",
-      "score": 7,
+      "score": 8,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "灰豚 - 数字人灰豚造"
@@ -3099,8 +3099,8 @@
     "1441941444": {
       "rank": 49,
       "keyword": "虚拟人",
-      "score": 6,
-      "level": "High",
+      "score": 7,
+      "level": "Low",
       "date": "2026-02-26",
       "name": "虚拟健康健身女孩"
     },
@@ -3123,8 +3123,8 @@
     "6447232221": {
       "rank": 36,
       "keyword": "AI 对话",
-      "score": 8,
-      "level": "High",
+      "score": 7,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "Chat练口语 - AI外教一对一练习口语"
     },
@@ -3139,24 +3139,24 @@
     "6448322542": {
       "rank": 50,
       "keyword": "AI 对话",
-      "score": 8,
-      "level": "Medium",
+      "score": 7,
+      "level": "High",
       "date": "2026-02-26",
       "name": "DeaSleak-AI对话智能助手"
     },
     "6737795089": {
       "rank": 69,
       "keyword": "AI 对话",
-      "score": 8,
-      "level": "Medium",
+      "score": 7,
+      "level": "High",
       "date": "2026-02-26",
       "name": "ChatExpert-4.0顶尖人工智能Ai对话绘画问答专家"
     },
     "6738054152": {
       "rank": 73,
       "keyword": "AI 对话",
-      "score": 9,
-      "level": "High",
+      "score": 8,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "ChatG4.0-中文版Ai人工智能对话画图"
     },
@@ -3179,9 +3179,9 @@
     "6444044406": {
       "rank": 39,
       "keyword": "Character",
-      "score": 6,
-      "level": "Low",
-      "date": "2026-02-25",
+      "score": 7,
+      "level": "Medium",
+      "date": "2026-02-26",
       "name": "Customize Your Character"
     },
     "6461309030": {
@@ -3195,7 +3195,7 @@
     "6746212721": {
       "rank": 8,
       "keyword": "AI 陪伴",
-      "score": 7,
+      "score": 6,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "Ai恋语 - 虚拟好友聊天对话"
@@ -3212,7 +3212,7 @@
       "rank": 48,
       "keyword": "AI 陪伴",
       "score": 7,
-      "level": "Low",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "喵世界-懂你的AI奇遇"
     },
@@ -3243,7 +3243,7 @@
     "1436140934": {
       "rank": 19,
       "keyword": "AI 聊天",
-      "score": 7,
+      "score": 8,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "羞聊-同城聊天约会暧昧撩爱处对象"
@@ -3289,11 +3289,11 @@
       "name": "糊弄键盘 - 抽盲盒式的 AI 聊天键盘"
     },
     "6465898072": {
-      "rank": 61,
+      "rank": 55,
       "keyword": "AI 聊天",
       "score": 6,
-      "level": "Low",
-      "date": "2026-02-25",
+      "level": "Medium",
+      "date": "2026-02-26",
       "name": "AI聊天话术-恋爱话术高情商聊天回复神器"
     },
     "1528917707": {
@@ -3323,7 +3323,7 @@
     "6736858123": {
       "rank": 4,
       "keyword": "情感倾诉",
-      "score": 8,
+      "score": 6,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "心悦问问-情感爱情星座运势解析"
@@ -3364,8 +3364,8 @@
       "rank": 4,
       "keyword": "树洞",
       "score": 6,
-      "level": "High",
-      "date": "2026-02-25",
+      "level": "Medium",
+      "date": "2026-02-26",
       "name": "私密话(原佳人树洞)-同城约会交友软件"
     },
     "6755775779": {
@@ -3387,8 +3387,8 @@
     "1529404975": {
       "rank": 38,
       "keyword": "树洞",
-      "score": 7,
-      "level": "Medium",
+      "score": 8,
+      "level": "High",
       "date": "2026-02-26",
       "name": "维密圈:树洞倾听者&同城交友"
     },
@@ -3457,9 +3457,9 @@
       "name": "星星漂流瓶-两性聊天社交软件"
     },
     "1660716354": {
-      "rank": 54,
+      "rank": 60,
       "keyword": "AI 女友",
-      "score": 8,
+      "score": 7,
       "level": "High",
       "date": "2026-02-26",
       "name": "人造的智力女朋友灵魂伴侣聊天 : 可爱头像而且浪漫模拟器"
@@ -3475,9 +3475,9 @@
     "484676566": {
       "rank": 41,
       "keyword": "Character",
-      "score": 7,
+      "score": 6,
       "level": "Low",
-      "date": "2026-02-25",
+      "date": "2026-02-26",
       "name": "Character Creator for Kids"
     },
     "1565518179": {
@@ -3513,7 +3513,7 @@
       "name": "崩坏：星穹铁道"
     },
     "6469985698": {
-      "rank": 36,
+      "rank": 34,
       "keyword": "AI 女友",
       "score": 8,
       "level": "High",
@@ -3548,7 +3548,7 @@
       "rank": 13,
       "keyword": "角色扮演",
       "score": 9,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "逆水寒"
     },
@@ -3564,7 +3564,7 @@
       "rank": 82,
       "keyword": "树洞",
       "score": 9,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "一点 - 00后年轻人专属社交软件"
     },
@@ -3579,8 +3579,8 @@
     "6670419520": {
       "rank": 50,
       "keyword": "虚拟人",
-      "score": 8,
-      "level": "High",
+      "score": 6,
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "方块人的简单生活"
     },
@@ -3588,8 +3588,8 @@
       "rank": 44,
       "keyword": "AI 对话",
       "score": 8,
-      "level": "Low",
-      "date": "2026-02-25",
+      "level": "Medium",
+      "date": "2026-02-26",
       "name": "ChatG4.5完美中文版 智能AI对话引擎"
     },
     "1110646984": {
@@ -3659,7 +3659,7 @@
     "1519589571": {
       "rank": 74,
       "keyword": "Roleplay",
-      "score": 8,
+      "score": 7,
       "level": "Medium",
       "date": "2026-02-26",
       "name": "弹力果冻"
@@ -3667,15 +3667,15 @@
     "6504324535": {
       "rank": 51,
       "keyword": "Roleplay",
-      "score": 8,
-      "level": "Medium",
+      "score": 7,
+      "level": "Low",
       "date": "2026-02-26",
       "name": "时光杂货店-风云联动开启"
     },
     "6744355933": {
       "rank": 47,
       "keyword": "智能女友",
-      "score": 7,
+      "score": 6,
       "level": "Low",
       "date": "2026-02-26",
       "name": "女友翻译器"
@@ -3691,7 +3691,7 @@
     "1619735568": {
       "rank": 77,
       "keyword": "AI 陪伴",
-      "score": 9,
+      "score": 8,
       "level": "High",
       "date": "2026-02-26",
       "name": "小晴同学"
@@ -3699,7 +3699,7 @@
     "6738695904": {
       "rank": 87,
       "keyword": "AI 陪伴",
-      "score": 10,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "LuluCare: AI心理咨询"
@@ -3708,7 +3708,7 @@
       "rank": 63,
       "keyword": "AI 聊天",
       "score": 9,
-      "level": "High",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "AI一下 - AI图片创作，AI图片编辑"
     },
@@ -3723,7 +3723,7 @@
     "6448569018": {
       "rank": 58,
       "keyword": "AI 聊天",
-      "score": 8,
+      "score": 9,
       "level": "High",
       "date": "2026-02-26",
       "name": "Chat X - 极简且强大的AI工具集 AI聊天问答"
@@ -3731,7 +3731,7 @@
     "6449697097": {
       "rank": 6,
       "keyword": "AI 聊天",
-      "score": 9,
+      "score": 8,
       "level": "High",
       "date": "2026-02-26",
       "name": "AI对话 - 人工智能聊天绘画,创作写作翻译机器人助手"
@@ -3764,14 +3764,14 @@
       "rank": 60,
       "keyword": "Roleplay",
       "score": 8,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "螺旋圆舞曲"
     },
     "6448885470": {
       "rank": 81,
       "keyword": "AI 聊天",
-      "score": 9,
+      "score": 7,
       "level": "High",
       "date": "2026-02-26",
       "name": "智能机器人-中文版AI聊天&做题&写作&创作神器"
@@ -3868,15 +3868,15 @@
       "rank": 58,
       "keyword": "Roleplay",
       "score": 8,
-      "level": "High",
-      "date": "2026-02-25",
+      "level": "Medium",
+      "date": "2026-02-26",
       "name": "新石器时代"
     },
     "6737982358": {
       "rank": 33,
       "keyword": "AI 陪伴",
       "score": 7,
-      "level": "Low",
+      "level": "Medium",
       "date": "2026-02-26",
       "name": "Mirrorly：AI心理成长教练"
     },
@@ -4084,7 +4084,7 @@
       "rank": 49,
       "keyword": "AI 角色",
       "score": 8,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "手狼 - 血染钟楼，狼人游戏在线AI说书人版"
     },
@@ -4100,7 +4100,7 @@
       "rank": 56,
       "keyword": "AI 聊天",
       "score": 7,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "Paktor 拍拖－聊天、同城约会、社交、快速配对交友软件"
     },
@@ -4156,7 +4156,7 @@
       "rank": 72,
       "keyword": "Roleplay",
       "score": 9,
-      "level": "High",
+      "level": "Low",
       "date": "2026-02-26",
       "name": "梦幻西游"
     },
@@ -4252,7 +4252,7 @@
       "rank": 71,
       "keyword": "Roleplay",
       "score": 7,
-      "level": "Medium",
+      "level": "Low",
       "date": "2026-02-26",
       "name": "原始征途"
     },
@@ -4268,7 +4268,7 @@
       "rank": 59,
       "keyword": "角色扮演",
       "score": 8,
-      "level": "Medium",
+      "level": "High",
       "date": "2026-02-26",
       "name": "自由幻想"
     },
@@ -4311,8 +4311,48 @@
       "level": "Low",
       "date": "2026-02-26",
       "name": "少女炫舞-我的女友节奏模拟游戏"
+    },
+    "1480837923": {
+      "rank": 75,
+      "keyword": "情感倾诉",
+      "score": 9,
+      "level": "High",
+      "date": "2026-02-26",
+      "name": "咨询师之家-心理助人者成长与督导平台"
+    },
+    "6742778656": {
+      "rank": 44,
+      "keyword": "角色扮演",
+      "score": 8,
+      "level": "High",
+      "date": "2026-02-26",
+      "name": "女武神战纪"
+    },
+    "6473782071": {
+      "rank": 47,
+      "keyword": "Roleplay",
+      "score": 8,
+      "level": "High",
+      "date": "2026-02-26",
+      "name": "动物大联盟"
+    },
+    "6456408928": {
+      "rank": 75,
+      "keyword": "Roleplay",
+      "score": 8,
+      "level": "High",
+      "date": "2026-02-26",
+      "name": "歧路旅人：大陆的霸者"
+    },
+    "668876977": {
+      "rank": 22,
+      "keyword": "Roleplay",
+      "score": 7,
+      "level": "Medium",
+      "date": "2026-02-26",
+      "name": "三剑豪-3D武侠大世界"
     }
   },
   "notified_ids": [],
-  "last_run": "2026-02-26T02:00:27.624231"
+  "last_run": "2026-02-26T03:48:36.992674"
 }
